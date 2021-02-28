@@ -10,7 +10,11 @@ A build configuration for a [Docker](https://www.docker.com/) image that contain
 ## Usage
 
 - Build the Docker image using Docker Engine.
-  ```sh
+  ```bash
   $ docker build -t threeal/threeal-bot:latest .
   ```
   > As an alternative, you may change the `threeal/threeal-bot:latest` argument with any Docker image name that you desire.
+- Run and test the Docker image.
+  ```bash
+  $ docker run --rm threeal/threeal-bot:latest runtest
+  ```
