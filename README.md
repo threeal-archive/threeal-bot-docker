@@ -16,5 +16,5 @@ A build configuration for a [Docker](https://www.docker.com/) image that contain
   > As an alternative, you may change the `threeal/threeal-bot:latest` argument with any Docker image name that you desire.
 - Run and test the Docker image.
   ```bash
-  $ docker run threeal/threeal-bot:latest runtest
+  $ docker run --rm threeal/threeal-bot:latest runtest
   ```
